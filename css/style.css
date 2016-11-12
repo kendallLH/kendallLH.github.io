@@ -24,7 +24,7 @@ a.nav_item {
 
 }
 
-a.hover {
+a:hover {
 	color: white;
 }
 
