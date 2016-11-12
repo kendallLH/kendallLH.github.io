@@ -1,6 +1,24 @@
-
-
 h1.title {
 	text-align: center;
-	color: #c0b05c; /*862404;*/ /*d8a86a; 1*/
+	color: #c0b05c; /*862404; 3*/ /*d8a86a; 2*/
 }
+
+div#nav_bar {
+	background-color: #c0b05c;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	width: 1300px;
+	height: 35px;
+	margin: auto;
+	font-size: 22px;
+	text-align: center;
+	/*padding: 5px 0px 5px 0px;*/
+	margin-top: 15px;
+	padding-top: 5px;
+}
+
+a.nav_item {
+	text-decoration: none;
+	color: #7a6f35;
+}
+
