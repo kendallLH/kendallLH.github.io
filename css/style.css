@@ -5,7 +5,7 @@ h1.title {
 
 div#nav_bar {
 	background-color: #f0d08e; /*dccd7d;*/
-	border: none;
+	border: 1px solid #000000;
 	border-radius: 5px;
 	width: 1300px;
 	height: 35px;
