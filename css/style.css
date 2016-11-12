@@ -5,9 +5,10 @@ h1.title {
 
 div#nav_bar {
 	background-color: #f0d08e; /*dccd7d;*/
-	border: 1px solid #000000;
+	/*border: 1px solid #000000;*/
+	border: none;
 	border-radius: 5px;
-	width: 1300px;
+	width: 1350px;
 	height: 35px;
 	margin: auto;
 	font-size: 22px;
