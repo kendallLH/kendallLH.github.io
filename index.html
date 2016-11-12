@@ -4,6 +4,8 @@
 	<head>
 
 		<link rel="stylesheet" href="css/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="js/controller.js"></script>
 		<style>
 			body {
 				background-image: url("../backgrounds/old_map.png");
@@ -17,7 +19,11 @@
 		</div>
 	</head>
 
-	<body>
+	<body ng-app="myApp" ng-controller="myCtrl">
 		<h1 class="title">Inspirational Quote Generator</h1>
+
+		<p>{{quote}}</p>
+
+		<button class="btn" onclick="generate_quote()">New Quote</button>
 	</body>
 </html>
