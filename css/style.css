@@ -9,3 +9,8 @@ ul.topnav {
 ul.topnav li {
 	float: right;
 }
+
+h2.title {
+	align: "center";
+	color: "#e8d471";
+}
