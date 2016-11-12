@@ -1,14 +1,4 @@
-ul.topnav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-}
 
-ul.topnav li {
-	float: right;
-}
 
 h1.title {
 	text-align: "center";
