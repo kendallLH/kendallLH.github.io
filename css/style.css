@@ -39,6 +39,8 @@ p.quote_text {
 
 div#quote_block {
 	margin-top: 150px;
+	/*width: 1000px;*/
+	text-align: center;
 }
 
 button#quote_btn {
