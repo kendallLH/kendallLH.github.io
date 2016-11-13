@@ -31,3 +31,33 @@ function generate_quote() {
 		}
 	});
 }
+
+
+ 
+/*
+$(window).ready(function(){
+	var quote = $.ajax({
+		url: 'https://www.notableandquotable.com/RandomQuote.asmx?',
+		type: 'POST',
+		//data: {cat:'Inspirational Quote'},
+		dataType: 'xml',
+		success: function(data) {
+			//$(xml).find()
+		}
+	});
+});
+
+
+function generate_quote() {
+	var quote = $.ajax({
+		url: 'https://www.notableandquotable.com/RandomQuote.asmx?',
+		type: 'POST',
+		//data: {cat:'Inspirational Quote'},
+		dataType: 'xml',
+		success: function(data) {
+			//document.getElementById("quote_here").innerHTML = "\"" + data.quote + "\"";
+			//document.getElementById("author").innerHTML = "-" + data.author;
+		}
+	});
+}
+*/

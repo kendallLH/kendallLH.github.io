@@ -33,14 +33,12 @@ body {
 	text-align: center;
 }
 
-p.quote_text {
-	font-family: Lucida;
-}
-
 div#quote_block {
 	margin-top: 150px;
 	/*width: 1000px;*/
 	text-align: center;
+	color: #87bc69;
+	font-family: Lucida;
 }
 
 button#quote_btn {
