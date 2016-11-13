@@ -23,12 +23,14 @@
 		</div>
 	</head>
 
-	<body ng-app="myApp" ng-controller="myCtrl">
-		<h1 class="title">Inspirational Quote Generator</h1>
+	<body>
+		<h1 class="title">Famous Quote Generator</h1>
+		
+		<div id="quote_block">
+			<p class="quote_text" id="quote_here"></p>
+			<p class="quote_text" id="author"></p>
+		</div>
 
-		<p id="quote_here"></p>
-		<p id="author"></p>
-
-		<button class="get_quote" onclick="generate_quote()">New Quote</button>
+		<button id="quote_btn" onclick="generate_quote()">New Quote</button>
 	</body>
 </html>

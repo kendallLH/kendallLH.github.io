@@ -1,11 +1,12 @@
 h1.title {
 	text-align: center;
 	color: #c0b05c; /*862404; 3*/ /*d8a86a; 2*/
+	font-size: 45px;
 }
 
+/*
 div#nav_bar {
-	background-color: #f0d08e; /*dccd7d;*/
-	/*border: 1px solid #000000;*/
+	background-color: #f0d08e; 
 	border: none;
 	border-radius: 5px;
 	width: 1200px;
@@ -13,10 +14,10 @@ div#nav_bar {
 	margin: auto;
 	font-size: 22px;
 	text-align: center;
-	/*padding: 5px 0px 5px 0px;*/
 	margin-top: 15px;
 	padding-top: 5px;
 }
+*/
 
 a.nav_item {
 	text-decoration: none;
@@ -30,5 +31,18 @@ a:hover {
 
 body {
 	text-align: center;
+}
+
+p.quote_text {
+	font-size: 25px;
+	font-family: Arial;
+}
+
+div#quote_block {
+	margin-top: 150px;
+}
+
+button#quote_btn {
+	margin-top: 100px;
 }
 
