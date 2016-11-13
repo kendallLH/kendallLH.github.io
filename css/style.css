@@ -34,7 +34,7 @@ body {
 }
 
 p.quote_text {
-	font-family: Arial;
+	font-family: Lucida;
 }
 
 div#quote_block {
@@ -49,7 +49,7 @@ button#quote_btn {
 }
 
 p#quote_here {
-	font-size: 25px;
+	font-size: 30px;
 }
 
 p#author {
