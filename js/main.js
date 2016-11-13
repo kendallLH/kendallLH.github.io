@@ -1,20 +1,16 @@
-var app = angular.module('myApp', []);
 
-app.controller('myCtrl', function($scope) {
-  /*  
-    function generate_quote() {
-    	alert('hi') ;
+function generate_quote() {
+	alert('in generate quote') ;
 	var quote = $.ajax({
 		url: 'https://andruxnet-random-famous-quotes.p.mashape.com/',
 		type: 'POST',
-		data: {cat = 'famous'},
+		data: {cat:'famous'},
 		dataType: 'json',
-		succes: function(data) {
+		success: function(data) {
 			document.getElementById("quote_here").innerHTML = data.quote;
 		},
 		beforeSend: function(xhr) {
     		xhr.setRequestHeader("X-Mashape-Authorization", "fDL01xsfZsmsh1h3EtKTxL794D7Gp1t994cjsnUcS6mNnm4jnB"); // Enter here your Mashape key
 		}
-	});}
-	*/
-});
+	});
+}
