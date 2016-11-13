@@ -34,7 +34,6 @@ body {
 }
 
 p.quote_text {
-	font-size: 25px;
 	font-family: Arial;
 }
 
@@ -44,5 +43,14 @@ div#quote_block {
 
 button#quote_btn {
 	margin-top: 100px;
+	/*position: inherit;*/
+}
+
+p#quote_here {
+	font-size: 25px;
+}
+
+p#author {
+	font-size: 20px;
 }
 
