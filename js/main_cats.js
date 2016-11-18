@@ -4,7 +4,7 @@ $(window).ready(function(){
 });
 
 function generate_cats() {
-	var num = Math.random()*100 ;
+	var num = Math.floor(Math.random()*100) ;
 	$.ajax({
 		url: 'https://montanaflynn-cat-overflow.p.mashape.com/',
 		type: 'GET',
