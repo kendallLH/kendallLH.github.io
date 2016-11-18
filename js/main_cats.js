@@ -1,9 +1,9 @@
 
 $(window).ready(function(){
-	generate_facts() ;
+	generate_cats() ;
 });
 
-function generate_facts() {
+function generate_cats() {
 	var num = Math.random()*100 ;
 	$.ajax({
 		url: 'https://montanaflynn-cat-overflow.p.mashape.com/',
