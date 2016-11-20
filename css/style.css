@@ -32,6 +32,10 @@ div#quote_block {
 	font-family: Lucida;
 }
 
+#quote_here {
+	margin: 0px 100px 0px 100px;
+}
+
 button#quote_btn {
 	margin-top: 100px;
 	/*position: inherit;*/
