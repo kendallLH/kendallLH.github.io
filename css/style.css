@@ -7,7 +7,13 @@ h1.quote_title {
 a.nav_item {
 	text-decoration: none;
 	color: #c0b05c;
+	font-size: 25px;
+	padding: 0px 5px 5px 5px;
+}
 
+#nav_bar {
+	text-align: right;
+	margin: 15px 20px 0px 0px;
 }
 
 a:hover {
@@ -19,10 +25,10 @@ body {
 }
 
 div#quote_block {
-	margin-top: 150px;
+	margin-top: 145px;
 	/*width: 1000px;*/
 	text-align: center;
-	color: #87bc69;
+	color: #2b2a3b; /*#87bc69; green*/
 	font-family: Lucida;
 }
 
@@ -44,20 +50,20 @@ button {
 	background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
 	*/
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
-	background-color: #c0b05c;
+	background-color: #2b2a3b ; /*#c0b05c;*/
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
 	border: 1px solid #dcdcdc;
 	display: inline-block;
 	cursor: pointer;
-	color: white;
+	color: white ; /*#73683d; brown*/
 	font-family: Arial;
 	font-size: 20px;
 	font-weight: bold;
 	padding: 11px 37px;
 	text-decoration: none;
-	text-shadow: 0px 1px 0px #ffffff;
+	text-shadow: 0px 1px 0px #b4a771;
 }
 button:hover {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
