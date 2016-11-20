@@ -4,11 +4,18 @@ h1.quote_title {
 	font-size: 45px;
 }
 
+h1.cat_title {
+	text-align: center;
+	color: #2b2a3b; /*862404; 3*/ /*d8a86a; 2*/
+	font-size: 45px;
+}
+
 a.nav_item {
 	text-decoration: none;
 	color: #c0b05c;
 	font-size: 25px;
 	padding: 0px 5px 5px 5px;
+	font-weight: bold;
 }
 
 #nav_bar {
@@ -41,7 +48,54 @@ button#quote_btn {
 	/*position: inherit;*/
 }
 
-button {
+button#quote_btn {
+	-moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	/*
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #c0b05c));
+	background: -moz-linear-gradient(top, #c0b05c 5%, #c0b05c 100%);
+	background: -webkit-linear-gradient(top, #c0b05c 5%, #c0b05c 100%);
+	background: -o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background: -ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color: #c0b05c ;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: white ; /*#73683d; brown*/
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 11px 37px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #b4a771;
+}
+button#quote_btn:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background: -moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background: -webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background: -o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background: -ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color: #dfdfdf;
+}
+button#quote_btn:active {
+	position: relative;
+	top: 1px;
+}
+
+button#cat_btn {
+	margin-top: 50px;
+}
+
+button#cat_btn {
 	-moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
 	-webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
 	box-shadow:inset 0px 0px 0px 0px #ffffff;
@@ -69,7 +123,7 @@ button {
 	text-decoration: none;
 	text-shadow: 0px 1px 0px #b4a771;
 }
-button:hover {
+button#cat_btn:hover {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
 	background: -moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
 	background: -webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
@@ -79,7 +133,7 @@ button:hover {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
 	background-color: #dfdfdf;
 }
-button:active {
+button#cat_btn:active {
 	position: relative;
 	top: 1px;
 }
