@@ -22,3 +22,25 @@ function generate_cats() {
 	});
 	return ;
 }
+
+/*
+$(window).ready(function(){
+	generate_cats() ;
+});
+
+function generate_cats() {
+	$.ajax({
+		url: 'https://api.imgur.com/3/gallery/image/search/',
+		type: 'GET',
+		data: {tag: 'cat'},
+		dataType: 'json',
+		success: function(data) {
+			alert(data) ;
+			//var url = 'https://catoverflow.com/cats/' +
+
+			
+		}
+	});
+	return ;
+}
+*/
