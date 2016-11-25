@@ -49,9 +49,6 @@ button#quote_btn {
 }
 
 button#quote_btn {
-	-moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
-	-webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
-	box-shadow:inset 0px 0px 0px 0px #ffffff;
 	/*
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #c0b05c));
 	background: -moz-linear-gradient(top, #c0b05c 5%, #c0b05c 100%);
@@ -60,10 +57,13 @@ button#quote_btn {
 	background: -ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
 	background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
 	*/
+	/*
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
-	background-color: #c0b05c ;
+	
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
+	*/
+	background-color: #c0b05c ;
 	border-radius: 6px;
 	border: 1px solid #dcdcdc;
 	display: inline-block;
@@ -107,10 +107,13 @@ button#cat_btn {
 	background: -ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
 	background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
 	*/
+	/*
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
-	background-color: #2b2a3b ; /*#c0b05c;*/
+	 
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
+	*/
+	background-color: #2b2a3b ;
 	border-radius: 6px;
 	border: 1px solid #dcdcdc;
 	display: inline-block;
