@@ -23,6 +23,12 @@ a.nav_item {
 	margin: 15px 20px 0px 0px;
 }
 
+#nav_bar_cats {
+	color: #2b2a3b;
+	text-align: right;
+	margin: 15px 20px 0px 0px;
+}
+
 a:hover {
 	color: white;
 }
