@@ -18,13 +18,15 @@ a.nav_item {
 	font-weight: bold;
 }
 
-#nav_bar {
-	text-align: right;
-	margin: 15px 20px 0px 0px;
+a.nav_item_cats {
+	text-decoration: none;
+	color: #2b2a3b;
+	font-size: 25px;
+	padding: 0px 5px 5px 5px;
+	font-weight: bold;
 }
 
-#nav_bar_cats {
-	color: #2b2a3b;
+#nav_bar {
 	text-align: right;
 	margin: 15px 20px 0px 0px;
 }
